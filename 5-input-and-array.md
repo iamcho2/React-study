@@ -268,7 +268,7 @@ class PhoneForm extends Component {
 export default PhoneForm;
 ```
 
-* onChange 이벤트 발생 —> e.target.value 값 통해 이벤트 객에 내의 현재 텍스트 값을 읽어올 수 있다.
+* onChange 이벤트 발생 —> e.target.value 값 통해 이벤트 객체 내의 현재 텍스트 값을 읽어올 수 있다.
 
 > onChange 이벤트 : input의 텍스트 값이 바뀔 때 마다 발생하는 이벤트 
 
@@ -277,7 +277,7 @@ export default PhoneForm;
 
 
 
-####**이 컴포넌트를 App에서 보여주기**
+#### **이 컴포넌트를 App에서 보여주기**
 
 ```jsx
 import React, { Component } from 'react';
@@ -299,7 +299,7 @@ export default App;
 
 <img src="./img/5/1.gif">
 
-####**input값 하나 더 추가하기**
+#### **input값 하나 더 추가하기**
 
 ```jsx
 // file: src/components/PhoneForm.js
@@ -345,7 +345,7 @@ export default PhoneForm;
 
 <img src="./img/5/2.gif">
 
-####**부모 컴포넌트에게 정보 전달하기**
+#### **부모 컴포넌트에게 정보 전달하기**
 
 - 부모 컴포넌트에서 메소드 만들고, 그 메소드를 자식에게 전달 후 자식 내부에서 호출하는 방식
 - <img src="./img/5/3.png">
@@ -450,7 +450,7 @@ export default PhoneForm;
 
 위와 같은 형식의 데이터를 App 컴포넌트의 state에 information이라는 배열에 추가하자.
 
-####App.js 수정하기
+#### App.js 수정하기
 
 ```jsx
 import React, { Component } from 'react';
